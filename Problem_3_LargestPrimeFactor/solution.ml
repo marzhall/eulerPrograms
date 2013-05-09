@@ -6,7 +6,7 @@ let largestPF number =
             match (number mod current) with
               0 -> primeFactor (number/current) current current
             | _ -> primeFactor number biggest (current + 1)
-    in primeFactor number 1 2 (* I know, one isn't a prime number, please don't shoot me ;_; *)
+    in primeFactor number 1 2
 
 let () = 
     begin
