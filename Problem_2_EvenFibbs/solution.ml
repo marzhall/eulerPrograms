@@ -1,3 +1,5 @@
+(** Generate the fibbonacci sequence until a number greater than `stop` is
+ * reached. *)
 let fibb stop = 
     let rec fibblist n x stop = if n > stop then
             [] 
