@@ -1,4 +1,4 @@
-(** THe list of numbers from 3 to 999 *)
+(** The list of ints from 3 to 999 *)
 let allInts =
     let rec count start stop = 
         if start > stop then
