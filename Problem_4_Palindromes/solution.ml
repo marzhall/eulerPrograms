@@ -1,4 +1,3 @@
-(** Sum a list *)
 let sum = List.fold_left (+) 0
 
 (** remove the first occurrence of an item in a list *) 
