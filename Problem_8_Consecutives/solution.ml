@@ -32,7 +32,7 @@ let rec getBiggestProduct str biggest =
         biggest
     else
         (* Char.escaped is mapped over the list of characters in this next line
-         * in order to satisfy in_of_string's type requirement *)
+         * in order to satisfy int_of_string's type requirement *)
         let current = product (List.map (int_of_string) (List.map (Char.escaped)
             (break (String.sub str 0 5)))) in
         if current > biggest then
