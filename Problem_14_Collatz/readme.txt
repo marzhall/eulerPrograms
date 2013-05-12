@@ -18,11 +18,11 @@ NOTE: Once the chain starts the terms are allowed to go above one million.
 
 Solution.ml VS. NoMemos.ml
 
-FFFFFF IIIIIII   GGGG    HH  HH  TTTTTTT  !!
-FF       II     GG       HH  HH    TT     !!
-FFFFF    II     GG  GGG  HHHHHH    TT     !!
-FF       II     GG  GG   HH  HH    TT
-FF     IIIIII     GGG    HH  HH    TT     !!
+FFFFFF  IIIIIII   GGGG    HH  HH  TTTTTTT  !!
+FF        II     GG       HH  HH    TT     !!
+FFFFF     II     GG  GGG  HHHHHH    TT     !!
+FF        II     GG  GG   HH  HH    TT
+FF      IIIIII     GGG    HH  HH    TT     !!
 
 The interesting thing here is that I pre-emptively optimized - or so I thought -
 solution.ml to save the results of each call in a Map structure, so that when I
