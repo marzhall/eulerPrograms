@@ -16,8 +16,9 @@ let enumerate n =
             
 let () = 
     begin
-        print_string "This is gonna take a minute, but the longest collatz \
-        sequence in the list of numbers from 1 to 1 million is: ";
+        print_string "This should be noticeably faster than solution.ml; \
+        the longest collatz sequence in the list of numbers from 1 to 1 \
+        million is: ";
         match 
         (List.fold_left 
             (fun (longest, len) y -> 
