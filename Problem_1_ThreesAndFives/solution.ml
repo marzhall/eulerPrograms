@@ -1,11 +1,11 @@
 (** The list of ints from 3 to 999 *)
 let allInts =
-    let rec count start stop = 
+    let rec count start stop lst = 
         if start > stop then
-            []
+            lst
         else
-            start::(count (start + 1) stop) in
-    count 3 999
+            count (start+1) stop (start::lst) in
+    count 3 1000 []
 
 let sum = List.fold_left (+) 0
 
